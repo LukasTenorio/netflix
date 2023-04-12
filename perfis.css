@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body {
+  background: hsla(0, 0%, 8%, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.7rem;
+
+  background: linear-gradient(180deg, rgb(33, 33, 33, 1) 82.08%, rgba(33, 33, 33, 1) 100%);
+
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: 400;
+  display: grid;
+  place-items: center;
+  margin-top: 10.4rem;
+  
+  font-size: 4.7rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 2.7rem;
+  text-align: center;
+}
+
+.card:hover {
+  color:white
+}
+
+.card {
+  margin-top: 3.2rem;
+
+  width: 13.6rem;
+  height: 13.6rem;
+ }
+ 
+ .card img {
+    border-radius: 4px;
+    object-fit: auto;
+    margin-bottom: 1rem;
+ }
+
+ .card img:hover{
+  border: .3rem solid white;
+  
+ }
+
+.card, button{
+  font-size: 1.7rem;
+  color: #808080;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+}
+
+button{
+  border: .1rem solid #808080;
+  padding: .9rem 2.8rem;
+  background: hsla(0, 0%, 8%, 1);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: white;
+  color: white;
+  transition: background .3s;
+}
